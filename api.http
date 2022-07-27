@@ -1,0 +1,16 @@
+### Create tweet
+POST http://localhost:3000/tweets
+Content-Type: application/json
+
+{
+  "text": "Tweeting for some time"
+}
+
+### Get tweets
+GET http://localhost:3000/tweets
+
+### Get tweet by ID
+GET http://localhost:3000/tweets/1
+
+### Delete by ID
+DELETE http://localhost:3000/tweets/1
